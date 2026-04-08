@@ -6,8 +6,8 @@ import type { Question } from './types';
 import { loadUser, saveUser, clearUser } from './storage';
 
 const QUESTIONS_PER_ROUND = 5;
-const BASE_COINS = 10;
-const STREAK_BONUS = 5;
+const BASE_COINS = 1;
+const STREAK_BONUS = 0;
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null);
